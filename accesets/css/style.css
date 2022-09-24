@@ -91,7 +91,7 @@ clear: both;
     display: inline-block;
 }
 .banner-img {
-    background: url('/accesets/img/banner.jpg') top center / cover no-repeat;
+    background: url('../img/banner.jpg') top center / cover no-repeat;
     width: 100%;
  
 }
@@ -348,7 +348,7 @@ p.cloud-icon {
     width: 100%;
     display: inline-block;
     background-blend-mode: darken; /* làm tối hình nền kết hợp với cái dưới */
-    background:rgba(0, 0, 0, .5)  url('/accesets/img/u25_state0.jpg') no-repeat;
+    background:rgba(0, 0, 0, .5)  url('../img/u25_state0.jpg') no-repeat;
 }
 .sustom-title {
     color: #fff;
