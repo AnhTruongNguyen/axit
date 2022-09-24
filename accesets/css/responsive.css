@@ -1,0 +1,190 @@
+/* pc */
+@media (min-width: 64em){
+    .menu-icon {
+        display: none;
+    }
+    
+}
+
+/* table */
+@media (min-width: 41.8125em) and (max-width: 63.9375em){
+    .menu-icon {
+        display: none;
+    }
+    #nav {
+        margin-right: 10px;
+      
+    }
+    #header .logo-icon {
+        padding-left: 30px;
+    }
+    .banner-adsv {
+        padding-top: 100px;
+        width:45%;
+        padding-left: 30px;
+    }
+    #banner .banner-trial {
+        
+        margin-right: 30px;
+        
+    }
+    .row {
+        padding:50px 10px;
+    }
+    #tab-button {
+        padding-left: 0;
+    }
+    #content .tab-list {
+        padding: 0 28px;
+        width: 40%;
+    }
+    .tab-img {
+        padding-top: 20px;
+    }
+    .row-two {
+        padding: 10px;
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 41.75em){ /* nên dùng đơn vị em để tránh lỗi trên nhiều trình duyệt khác nhau*/
+    /* header */
+    .row {
+        padding:50px 10px;
+    }
+    .row-two {
+        padding: 0 10px;
+    }
+    .picture-img {
+        float: none;
+    }
+    .picture-list {
+        width: 100%;
+    }
+    #tab-button li {
+        display: inline-block;
+    }
+    .tab-img {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    
+    }
+    #tab-button {
+        padding-left: 26px;
+            }
+    
+    #header .logo-icon {
+        height: 24px;
+        padding: 15px 15px 15px 10px
+    }
+    .menu-icon {
+        color: #fff;
+        float: right;
+        padding: 10px 20px;
+        font-size: 30px;
+        display: inline;
+    }
+    .menu-icon:hover {
+        cursor: pointer;
+    }
+    .mobile-close-btn {
+        display: none;
+    }
+    /* banner */
+    .banner-adsv {
+        padding-top: 100px;
+        width:96%;
+        padding-left: 10px;
+        padding-bottom: 0;
+
+    }
+    #banner .banner-begin {
+        font-size: 29px;
+    }
+    #banner .banner-trial {
+        margin-top: 0;
+        margin-right: 0;
+        border-radius: 1%;
+        overflow: hidden;
+        width: 340px;
+        float: none;
+        margin-left: 36px;
+        margin-bottom: 20px;
+    }
+    /* tab */
+    #tab-button li {
+         padding: 20px 5px;
+    }
+    #content .tab-list {
+        padding: 0 10px;
+        width: 97%;
+       
+    }
+    .tab-img img {
+        width: 90%;
+        text-align: center;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    /* sub */
+    .img {
+        width: 100%;
+    }
+    .sub-list {
+        
+        float: none;
+        width: 100%;
+    }
+    /* why */
+    .why-section .row-end {
+        display: inline-block;
+    }
+    .title-big {
+        font-size: 30px;
+        margin-bottom: 14px;
+        margin-top: 15px;
+    }
+    .sustom-content {
+       
+        margin-bottom: 18px;
+    }
+    button.download-btn {
+        margin-bottom: 30px;
+    }
+    /* conract */
+    .contact-list .list-name {
+       
+        width: 100%;
+        
+    }
+    .contact-list .message {
+        float: none;
+        width: 100%;
+    }
+    .ctr-message {
+        padding-bottom: 0;
+    }
+    /* java */
+    .home {
+        display: inline-block;
+    }
+    #header {
+        overflow: hidden;
+    } 
+    #nav > li {
+        width: 100%;
+        padding: 20px 0;
+    }
+     #nav {
+        background-color: #000;
+        margin-top: -5px;
+        text-align: center;
+        margin-right: 0;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+ 
+
+}
