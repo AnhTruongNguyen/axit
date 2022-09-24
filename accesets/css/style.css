@@ -43,9 +43,7 @@ clear: both;
     margin-bottom: 30px;
 }
 /* main */
-#main {
 
-}
 #header {
     height: 54px;
     background-color: #000;
@@ -69,7 +67,6 @@ clear: both;
     cursor: pointer;
 }
 #nav {
-    display: inline-block;
     float: right;
     margin-right: 120px;
     padding-left: 0;
@@ -102,7 +99,7 @@ clear: both;
    
 }
 #banner .banner-trial {
-    display: inline-block;
+    
     background-color: #fff;
     margin-top: 100px;
     margin-right: 100px;
@@ -208,7 +205,7 @@ clear: both;
     background-color: #ff9b51;
 }
 .tab-img {
-    display: inline-block;
+    
     width: 30%;
     float: right;
     margin-right: 50px;
@@ -264,7 +261,7 @@ clear: both;
    display: inline-block;
 }
 .sub-list {
-    display: inline-block;
+    
     float: right;
     width: 40%;
 }
@@ -390,7 +387,7 @@ p.cloud-icon {
 .contact-list .message {
     float: right;
     width: 50%;
-    display: inline-block;
+    
 }
 .ctr-message {
     padding-bottom: 148px;
